@@ -224,6 +224,7 @@ export const skillNodes: SkillNode[] = [
   { id: "transformers", label: "Transformers", category: "aiml" },
   { id: "llm", label: "LLMs", category: "aiml" },
   { id: "lightgbm", label: "LightGBM", category: "aiml" },
+  { id: "PyTorch", label: "PyTorch", category: "aiml" },
   { id: "predictive", label: "Predictive Analytics", category: "aiml" },
   // Tools
   { id: "git", label: "Git", category: "tools" },
@@ -261,6 +262,7 @@ export const skillConnections: SkillConnection[] = [
   { from: "python", to: "lightgbm" },
   { from: "python", to: "predictive" },
   { from: "python", to: "streamlit" },
+  { from: "python", to: "PyTorch" },
   // Java ecosystem
   { from: "java", to: "springboot" },
   { from: "java", to: "dsa" },
